@@ -149,10 +149,12 @@
   <ItemGroup>
     <ClCompile Include="DSA.cpp" />
     <ClCompile Include="Que.cpp" />
+    <ClCompile Include="Tetris.cpp" />
     <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Que.h" />
+    <ClInclude Include="Tetris.h" />
     <ClInclude Include="View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

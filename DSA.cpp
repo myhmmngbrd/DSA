@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <windows.h>
-#include "View.h"
+#include "Tetris.h"
 
 
 int main() {
@@ -20,7 +20,7 @@ int main() {
 
 
 	View window;
-	window.drawbox(10, 10, 50, 25);
+	window.drawwindow(0, 0, 20, 20);
 
 
 	return 0;
